@@ -1,0 +1,20 @@
+# Do not remove this line, otherwise mod_rewrite rules will stop working
+RewriteBase /
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^www\.ali.orhun\.org$
+RewriteRule ^/?$ "http\:\/\/ali.orhun\.org\/" [R=301,L]
+
+DirectoryIndex anasayfa.html index.php index.html index.htm index.shtml
+
+RewriteRule (.*)-(.*)-dersi.html haber_oku.php?id=$1
+RewriteRule bir anasayfa.html
+RewriteRule hakkimda hakkimda.html
+RewriteRule iletisim iletisim.html
+RewriteRule 21Eylul 21eylul.html
+RewriteRule kisisel kisisel.html
+RewriteRule 12agustos2010 12agustos2010.html
+RewriteRule Dilek Dilek.html
+RewriteRule 25ocak2015 25ocak2015.html
+RewriteRule 31temmuz2015 31temmuz2015.html
