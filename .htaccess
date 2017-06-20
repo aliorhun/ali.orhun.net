@@ -3,8 +3,8 @@ RewriteBase /
 
 RewriteEngine on
 
-RewriteCond %{HTTP_HOST} ^www\.ali.orhun\.org$
-RewriteRule ^/?$ "http\:\/\/ali.orhun\.org\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^www\.ali.orhun\.net$
+RewriteRule ^/?$ "http\:\/\/ali.orhun\.net\/" [R=301,L]
 
 DirectoryIndex anasayfa.html index.php index.html index.htm index.shtml
 
