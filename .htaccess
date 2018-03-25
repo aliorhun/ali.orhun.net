@@ -6,10 +6,10 @@ RewriteEngine on
 RewriteCond %{HTTP_HOST} ^www\.ali.orhun\.net$
 RewriteRule ^/?$ "http\:\/\/ali.orhun\.net\/" [R=301,L]
 
-DirectoryIndex anasayfa.html index.php index.html index.htm index.shtml
+DirectoryIndex index.php index.html index.htm index.shtml
 
 RewriteRule (.*)-(.*)-dersi.html haber_oku.php?id=$1
-RewriteRule bir anasayfa.html
+RewriteRule bir index.html
 RewriteRule hakkimda hakkimda.html
 RewriteRule iletisim iletisim.html
 RewriteRule 21Eylul 21eylul.html
