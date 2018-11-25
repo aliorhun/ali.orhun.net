@@ -9,7 +9,6 @@ RewriteRule ^/?$ "http\:\/\/ali.orhun\.net\/" [R=301,L]
 DirectoryIndex index.php index.html index.htm index.shtml
 
 RewriteRule (.*)-(.*)-dersi.html haber_oku.php?id=$1
-RewriteRule bir index.html
 RewriteRule hakkimda hakkimda.html
 RewriteRule iletisim iletisim.html
 RewriteRule 21Eylul 21eylul.html
@@ -19,4 +18,5 @@ RewriteRule Dilek Dilek.html
 RewriteRule 25ocak2015 25ocak2015.html
 RewriteRule 31temmuz2015 31temmuz2015.html
 RewriteRule qr qr.html
+RewriteRule bir index.html
 
