@@ -18,3 +18,5 @@ RewriteRule 12agustos2010 12agustos2010.html
 RewriteRule Dilek Dilek.html
 RewriteRule 25ocak2015 25ocak2015.html
 RewriteRule 31temmuz2015 31temmuz2015.html
+RewriteRule qr qr.html
+
